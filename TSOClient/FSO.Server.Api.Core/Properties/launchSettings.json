@@ -1,16 +1,8 @@
-﻿{
-  "$schema": "http://json.schemastore.org/launchsettings.json",
-  "iisSettings": {
-    "windowsAuthentication": false,
-    "anonymousAuthentication": true,
-    "iisExpress": {
-      "applicationUrl": "http://localhost:61113",
-      "sslPort": 44333
-    }
-  },
+{
   "profiles": {
     "IIS Express": {
       "commandName": "IISExpress",
+      "commandLineArgs": "https://0.0.0.0",
       "launchBrowser": true,
       "launchUrl": "api/values",
       "environmentVariables": {
@@ -19,12 +11,22 @@
     },
     "FSO.Server.Api.Core": {
       "commandName": "Project",
+      "commandLineArgs": "https://0.0.0.0",
       "launchBrowser": true,
       "launchUrl": "api/values",
-      "applicationUrl": "https://localhost:5001;http://localhost:5000",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
-      }
+      },
+      "applicationUrl": "https://localhost:5001;http://localhost:5000"
+    }
+  },
+  "$schema": "http://json.schemastore.org/launchsettings.json",
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:61113",
+      "sslPort": 44333
     }
   }
 }

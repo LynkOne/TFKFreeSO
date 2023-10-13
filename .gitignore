@@ -22,6 +22,7 @@ TSOClient/.vs/*
 # User-specific files
 .vs/
 TSOClient/FSO.Server/config.json
+TSOClient/FSO.Server/config.sample.json
 *.suo
 *.user
 *.userosscache

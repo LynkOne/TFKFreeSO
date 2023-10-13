@@ -41,7 +41,7 @@ namespace FSO.Server.Api.Core
                 options.AddPolicy("AdminAppPolicy",
                     builder =>
                     {
-                        builder.WithOrigins("https://freeso.org", "http://localhost:8080").AllowAnyMethod().AllowAnyHeader().AllowCredentials().WithExposedHeaders("content-disposition");
+                        builder.WithOrigins("https://localhost", "http://localhost:8080").AllowAnyMethod().AllowAnyHeader().AllowCredentials().WithExposedHeaders("content-disposition");
                     });
             }).AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }

@@ -32,6 +32,8 @@ namespace FSO.Windows
 
         public static void Main(string[] args)
         {
+            args = new string[1];
+            args[0] = "-3d";
             InitWindows();
             if ((new FSOProgram()).InitWithArguments(args))
                 (new GameStartProxy()).Start(UseDX);

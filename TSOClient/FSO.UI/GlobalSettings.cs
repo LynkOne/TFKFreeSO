@@ -40,7 +40,7 @@ namespace FSO.Client
         private Dictionary<string, string> _DefaultValues = new Dictionary<string, string>()
         {
             { "ShowHints", "true"},
-            { "CurrentLang", "english" },
+            { "CurrentLang", "Spanish" },
             { "ClientVersion", "0"},
             { "DebugEnabled", "false"},
             { "ScaleUI", "false"},
@@ -69,8 +69,8 @@ namespace FSO.Client
             { "SurroundingLotMode", "2" },
 
             { "UseCustomServer", "true" },
-            { "GameEntryUrl", "http://api.freeso.org" },
-            { "CitySelectorUrl", "http://api.freeso.org" },
+            { "GameEntryUrl", "https://tso.tfkgames.com" },
+            { "CitySelectorUrl", "https://tso.tfkgames.com" },
 
             { "TargetRefreshRate", "60" },
 
